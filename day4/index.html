@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Color change</title>
+	<style>
+	html,body{
+		height:100vh;
+		width:100vw;
+	}
+	</style>
+
+</head>
+<body id="body">
+	<button onclick="changeBGcolor()">OHO</button>
+	<button onclick="SetHello()">OUO</button>
+	<button onclick="location.href='/'">home</button>
+	<script>
+	function getRandomColor(){
+		return '#'+Math.random().toString(16).slice(2,8);
+	}
+
+	function changeBGcolor (){
+		var color = getRandomColor();
+		var body = document.getElementById('body');
+		body.style.backgroundColor = color;
+	}
+
+	 function SetHello(){
+	 	alert( 'Hello, world!' );
+	 }
+
+	 //  function SetHello(){
+	 // 	var body = document.getElementById('body');
+	 // 	body.innerHTML="hi";
+	 // }
+	
+
+	</script>
+</body>
+</html>

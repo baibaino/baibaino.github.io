@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shacking</title>
+	<style>
+	@keyframes shakeit {
+		0%{
+			left:50px;
+		}
+		25%{
+			left:45px;
+		}
+		50%{
+			left:px;
+		}
+		75%{
+			left:55px;
+		}		
+	}	
+
+	img{
+		position: relative;
+		left:50px;
+		/*relative absoilt fixed*/
+		animation-name: shakeit;
+		animation-duration:0.1s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		}
+	</style>
+	<link rel="stylesheet" href="day7.css">
+</head>
+<body class="center">
+	<div>
+		<h1 >Shicking Pizza!</h1>
+		<img class="img" src="img/real_pizza.png" alt="">
+		<br>
+		<br>
+		<br>
+	</div>
+	 	 <input type="button" value="Home" onclick="location.href='/'">
+</body>
+</html>

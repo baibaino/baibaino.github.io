@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shacking</title>
+	<style>
+		@keyframes shakeit {
+			0%{
+				left:50px;
+			}
+			25%{
+				left:45px;
+			}
+			50%{
+				left:px;
+			}
+			75%{
+				left:55px;
+			}		
+		}	
+	</style>
+	<link rel="stylesheet" href="day8.css">
+</head>
+
+<body class="center">
+	<h1 class="word">oh~yeah</h1>
+
+	<div>
+		<img id="pizza" src="img/chicken.jpg" alt="">
+	</div>
+
+	<div class="right">
+		<button onclick="triggerShake()">shakeing</button>
+	<button onclick="stopshake()">stop</button>
+	</div>
+
+	<input type="button" value="Home" class="home" onclick="location.href='/'">
+	
+	<script>
+		function triggerShake(){
+			var img = document.getElementById('pizza'); 
+			// console.log(img);
+			img.classList.add('bt1');
+		}
+		function stopshake(){
+			var img = document.getElementById('pizza'); 
+			// console.log(img);
+			img.classList.remove('bt1');
+		}
+	</script>
+</body>
+</html>

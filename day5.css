@@ -11,7 +11,7 @@
     text-align:center;	
 }
 .downbackground{
-	background-color: yellow;
+	background-color: #ffffff;
     height: 100%;
     width:100%;
     text-align:center;
@@ -63,7 +63,7 @@ h2 {
 }
 
 a:link {
-	color:white;
+	color:pink;
 	text-decoration: none;
 }
 

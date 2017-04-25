@@ -1,0 +1,156 @@
+h1{
+	color:orange;
+	font-family: 'Indie Flower', cursive;
+	font-size: 35px;
+}
+
+p{	
+	color:gray;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.button1{
+	background-color:#4CAF50;
+	border:none;
+	/*圓角 border-radius: 2px;*/
+	color:white;
+	padding:15px 32px;
+	text-align: center;
+	/*字體對齊*/
+	text-decoration: none;
+	/*文字的修飾，底線放哪這樣*/ 
+	display:inline-block;
+	font-size:16px;
+}
+
+.button2{
+	background-color:#298be7;
+	border:none;
+	/*圓角 border-radius: 2px;*/
+	color:white;
+	padding:16px 32px;
+	text-align: center;
+	/*字體對齊*/
+	text-decoration: none; 
+	display:inline-block;
+	font-size:16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+
+
+}
+.button2:hover{
+	background-color:red;
+	color:black;
+}
+
+.button3{
+	background-color:#00853d;
+	border:3px;
+	color:white;
+	padding:15px 32px;
+	text-align: center;
+	font-size:16px;
+	/*box-shadow: x y blur spread color inset;
+	平位移距離 (x) 、垂直位移距離 (y) 、模糊強度 (blur) 、擴散強度 (spread)
+	rgba(red 值, green 值, blue 值, alpha 值) */ 
+    transition-duration: 0.4s;
+	
+}
+
+.button3:hover{
+	background-color:#00853d;
+	border:3px;
+	color:white;
+	padding:15px 32px;
+	text-align: center;
+	font-size:16px;
+	/*box-shadow: x y blur spread color inset;
+	平位移距離 (x) 、垂直位移距離 (y) 、模糊強度 (blur) 、擴散強度 (spread)
+	rgba(red 值, green 值, blue 值, alpha 值) */ 
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.24), 0 17px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button4{
+	background-color:#00853d;
+	border:3px;
+	color:white;
+	padding:15px 32px;
+	text-align: center;
+	font-size:16px;
+	
+}
+
+.button4_disabled{
+	opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.button5{
+	background-color: orange;
+	border:2px;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	display: inline-block;
+	font-size:16px;
+	cursor: pointer;
+	/*滑鼠改變形狀!http://www.flycan.com/article/css/css-cursor-209.html*/
+    float: left;
+    /*圖案位於的方向，http://www.1keydata.com/css-tutorial/tw/float.php*/
+}
+
+.button5:hover{
+	background:#e09100;
+}
+
+.button6{
+	background-color: orange;
+	border: 1px solid brown;
+	color:white;
+	padding:15px 32px;
+	text-align:center;
+	display: inline-block;
+	font-size:16px;
+	cursor: pointer;
+    display: block;
+   
+}
+
+.button6:not(:last-child){
+	 border-bottom: none;
+	 /*按鈕底部的線，不顯示，避免重疊的線，另外寫出來可以避免最後一顆遭殃*/
+}
+
+.button6:hover{
+	background:#e09100;
+}
+
+.button7{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3d3d3d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+  font-family: 'Indie Flower', cursive;
+}
+
+.button7:hover {
+	background-color: #1d1d1d;
+	
+}
+
+.button7:active {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

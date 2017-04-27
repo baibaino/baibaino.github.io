@@ -1,0 +1,23 @@
+.text-box1{
+	border:solid;
+	width:600px;
+	/*transition>過渡的意思，transform>轉變 */
+}
+
+.rotate{
+	transition: transform 2s;
+}
+
+.rotate:hover {
+	transform: rotate(90deg);
+}
+
+.skew{
+	transform: skewX(20deg);
+	transition: transform 2s;
+}
+
+.skew:hover {
+	transform: skewX(60deg);
+
+}

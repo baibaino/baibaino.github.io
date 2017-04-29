@@ -1,23 +1,130 @@
-.text-box1{
+body{
+	background-color: #222222;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+div{
 	border:solid;
-	width:600px;
+	margin:50px;
+	width:700px;
+}
+
+p{
+	margin:6px;
+}
+
+h1{
+	color: white;
+	margin-left:50px;
+}
+
+.word_box1{
+	color:gray;
+	transform: rotate(7deg);
+	transition: transform 0.5s;
 	/*transition>過渡的意思，transform>轉變 */
 }
 
-.rotate{
-	transition: transform 2s;
+.word_box1:hover {
+	color:red;
+	transform: rotate(0deg);
 }
 
-.rotate:hover {
-	transform: rotate(90deg);
+.word_box2{
+	color:gray;
+	transform: skewX(40deg);
+	transition: transform 0.5s;
 }
 
-.skew{
-	transform: skewX(20deg);
-	transition: transform 2s;
+.word_box2:hover {
+	color:green;
+	transform: skewX(0deg);
+
 }
 
-.skew:hover {
-	transform: skewX(60deg);
+.word_box3{
+	color:gray;
+	transform-origin:left top;
+	transform:rotate(-3deg);
+	transition: transform 0.5s;
+}
 
+.word_box3:hover {
+	color:orange;
+	transform-origin:left top;
+	transform:rotate(0deg);
+
+}
+
+.word_box4{
+	color:gray;
+	transform:skewX(-25deg) skewY(5deg);
+	transition: transform 0.5s;
+}
+
+.word_box4:hover {
+	color:brown;
+	transform:skewX(0deg) skewY(0deg);
+}
+
+.word_box5{
+	color:gray;
+	transform-origin:0;
+	transform:scaleX(1.2);
+	transition: transform 0.5s;
+}
+
+.word_box5:hover {
+	color:purple;
+	transform:scaleX(1);
+}
+
+.word_box6{
+	color:gray;
+	transform:scaleY(-1.8);
+	transition: transform 0.5s;
+}
+
+.word_box6:hover {
+	color:pink;
+	transform:scaleY(1);
+}
+
+.word_box7{
+	color:gray;
+	transform:translateX(10%);
+	transition: transform 0.5s;
+}
+
+.word_box7:hover {
+	color:white;
+	transform:translateX(0%);
+}
+
+.home{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#9c6f3e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+  font-family: 'Ubuntu', sans-serif;
+  margin-left:50px;
+
+}
+
+.home:hover {
+	background-color: #755029;
+}
+
+.home:active {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

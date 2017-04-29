@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple day!</title>
+		<script>
+			function change(){
+			var img= document.getElementById('cat'); 
+			img.src="img/cat.gif";
+			}
+		</script>
+<style>
+.home{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3d3d3d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+}
+
+.home:hover {
+	background-color: #1d1d1d;
+}
+
+.home:active {
+	background-color: #1e1e1e;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+}
+
+h1{
+	color: orange;
+}
+
+h3{
+	color:orange;
+}
+
+img{
+	cursor:pointer;
+}
+
+</style>
+</head>
+<body>
+<h1>Normal day</h1>
+<img id="cat" onclick="change()" src="img/cat.jpg" alt="">
+<h3>Click me!You can see my busy day!</h3>
+<div>
+	<link rel="stylesheet" href="">
+	<button onclick="location.href='/'" class="home">Home</button>
+</div>
+
+
+</body>
+</html>

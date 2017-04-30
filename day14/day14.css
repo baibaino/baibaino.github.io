@@ -1,0 +1,82 @@
+body{
+	display: flex;
+}
+
+.piano{
+ 	text-align: center;
+ 	border:solid;
+ 	border-color: black;
+ 	border-width: 1px;
+}
+.piano:active{
+	background-color: gray;
+}
+
+.active{
+	background-color: gray !important;
+}
+
+.white{
+	width:100px;
+	height:300px;
+
+}
+
+.black{
+	position: absolute;
+	/*static > 靜態，東西不能動
+	relative >靜態，但可以調整可以動
+	absolute >絕對位置，左上角會對到左上角
+	fixed>整個page的絕對位置*/
+	background-color: black;
+	color:white;
+	width:70px;
+	height:200px;
+}
+
+.do{
+	left:65px;
+}
+
+.re{
+	left:175px;
+}
+
+.fa{
+	left:375px;
+}
+
+.so{
+	left:480px;
+}
+
+.la{
+	left:580px;
+}
+
+.home{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3d3d3d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+  font-family: 'Indie Flower', cursive;
+}
+
+.home:hover {
+	background-color: #1d1d1d;
+	
+}
+
+.home:active {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

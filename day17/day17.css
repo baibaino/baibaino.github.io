@@ -1,0 +1,27 @@
+.home{
+  margin-top: 100px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:#3d3d3d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #999;
+  font-family: 'Indie Flower', cursive;
+}
+
+.home:hover {
+    background-color: #1d1d1d;
+    
+}
+
+.home:active {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
